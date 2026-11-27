@@ -1,0 +1,60 @@
+/* Design tokens. The whole look hangs off these variables, so a redesign
+   should start here. Light is the default; dark overrides via data-theme. */
+:root {
+  --font-ui: Inter, "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "JetBrains Mono", Menlo, monospace;
+
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-md: 14.5px;
+  --text-lg: 17px;
+  --text-xl: 28px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --radius-sm: 4px;
+  --radius: 6px;
+  --radius-lg: 10px;
+
+  --sidebar-w: 224px;
+
+  --bg: #faf9f7;
+  --surface: #ffffff;
+  --surface-2: #f3f1ed;
+  --border: #e6e2db;
+  --border-strong: #d3cec5;
+  --text: #1f1d1a;
+  --text-muted: #6d685f;
+  --accent: #c4532f;
+  --accent-contrast: #ffffff;
+  --accent-soft: #f7e6df;
+  --danger: #b3261e;
+  --ok: #2f7d4f;
+  --focus: #c4532f;
+  --overlay: rgba(20, 18, 15, 0.45);
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.18);
+}
+
+[data-theme='dark'] {
+  --bg: #151618;
+  --surface: #1c1d21;
+  --surface-2: #25262b;
+  --border: #2d2f35;
+  --border-strong: #41434b;
+  --text: #ecebe7;
+  --text-muted: #9b9990;
+  --accent: #e8855f;
+  --accent-contrast: #1a1210;
+  --accent-soft: #3a2a23;
+  --danger: #f2877f;
+  --ok: #6fc08f;
+  --focus: #e8855f;
+  --overlay: rgba(0, 0, 0, 0.6);
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
