@@ -91,7 +91,9 @@ npm run dev        # development window with hot reload
 npm run build      # release binary: src-tauri/target/release/design-desk
 ```
 
-The first Rust build takes a minute or two. To run the database tests:
+The first Rust build takes a minute or two. On Linux, `npm run install-app` then puts Design Desk in your app launcher (it installs the binary to `~/.local/bin`, plus an icon and a `.desktop` entry, no root needed). Re-run it after rebuilding to update.
+
+To run the database tests:
 
 ```sh
 cd src-tauri && cargo test
