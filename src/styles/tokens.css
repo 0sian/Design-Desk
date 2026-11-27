@@ -39,6 +39,7 @@
   --focus: #c4532f;
   --overlay: rgba(20, 18, 15, 0.45);
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.18);
+  color-scheme: light;
 }
 
 [data-theme='dark'] {
@@ -57,4 +58,5 @@
   --focus: #e8855f;
   --overlay: rgba(0, 0, 0, 0.6);
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  color-scheme: dark;
 }
